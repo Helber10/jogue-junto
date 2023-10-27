@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAR</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="javascript/funcoes.js"></script>
+</head>
+<body>
+
+    <section>
+        <header id="header-menu">
+    
+            <nav id="nav">
+                <button id="btn-menu" onclick="toggleMenu()">
+                 Menu
+                 <span id="hang"></span>
+             </button>
+               <ul id="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="#">CADASTRAR</a></li>
+                <li><a href="/">HISTORIA</a></li>
+              </ul>
+            </nav>
+            </header>
+            <main>
+    <form action="">
+        <div class="form-cadastro">
+            <div class="title">
+                <h2 class="h2-cadastro">Cadastro</h2>
+            </div>
+            <div class="input-cadastro">
+                <label for="nome"> Nome Completo</label>
+                <input id="nome" type="text" name="Nome Completo" placeholder="Nome Completo" required>
+            </div>
+            <div class="input-cadastro">
+                <label for="data"> data de nascimento </label>
+                <input id="date"type="date" name="data" placeholder="Digite a data de nascimento" required>
+            </div>
+            <div class="input-cadastro">
+                <label for="email"> E-mail </label>
+                <input id="email"type="email" name="email" placeholder="usuario@email.com" required>
+            </div>
+            <div class="input-cadastro">
+                <label for="password">Senha</label>
+                <input id="password"type="password" name="password" placeholder=" Digite sua senha" required>
+            </div>
+            <div class="input-cadastro">
+                <label for="confirmpassword">Confima a Senha</label>
+                <input id="confirmpassword"type="password" name="confirmpassword" placeholder="confirma a senha" required>
+            </div>
+         
+        </div>
+        <button class="btn-cadastro" onclick="cadastrar()">CADASTRAR</button>
+    </form>
+    </main>
+    </section>
+</body>
+</html>

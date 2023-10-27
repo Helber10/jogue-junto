@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet"  href="css/estilo.css">
+    <script src="javascript/funcoes.js"></script>
+</head>
+
+<body>
+    <section>
+        <header id="header-menu">
+
+            <nav id="nav">
+                <button id="btn-menu" onclick="toggleMenu()">
+                    Menu
+                    <span id="hang"></span>
+                </button>
+                <ul id="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">LOGIN</a></li>
+
+                    <li><a href="/">HISTORIA</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 class="h2-login">Login</h2>
+            <div class="div-login">
+                <form class="form-login" action="">
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input class="input-login" type="email" id="email" name="email" placeholder="usuario@email.com">
+                    </div>
+                    <div>
+                        <label for="password">Senha</label>
+                        <input class="input-login" type="password" name="password" placeholder="entre com a senha"
+                            id="password">
+                    </div>
+                    <button type="button" onclick="tipoLogin(); return false">ENTRA</button>
+                </form>
+
+
+                <div class="footer">
+                    <span>Não tenho conta, quero me CADASTRAR</span>
+                </div>
+                <div>
+        </Main>
+        <aside></aside>
+        <footer></footer>
+    </section>
+
+</body>
+
+</html>

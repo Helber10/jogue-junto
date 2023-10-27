@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenis de Mesa</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+
+    <section>
+        <header id="header-menu">
+
+            <nav id="nav">
+                <button id="btn-menu" onclick="toggleMenu()">
+                    Menu
+                    <span id="hang"></span>
+                </button>
+                <ul id="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="volei.html">VOLEI</a></li>
+                    <li><a href="/">HISTORIA</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="">
+                <div class="form-tenis">
+                    <div class="title">
+                        <h2 class="h2-cadastro">Tenis de Mesa</h2>
+                    </div>
+                    <div class="input-tenis">
+                        <label for="partida">Nome da partida</label>
+                        <input id="partida" type="text" name="nome da partida" placeholder="Nome partida" required>
+                    </div>
+                    <div class="input-tenis">
+                        <label for="regra"> Regra </label>
+                        <input id="number" type="number" name="regra" placeholder="regra" required>
+                    </div>
+                    <div class="input-tenis">
+                        <label for="Jogadores"> Numero de Jogadores</label>
+                        <input id="number" type="number" name="Jogadores" placeholder="Jogadores" required>
+                    </div>
+                    <div class="input-tenis">
+                        <label for="data"> Data da Partida </label>
+                        <input id="date" type="date" name="data" placeholder="" required>
+                    </div>
+                    <div class="input-tenis">
+                        <label for="hora"> Data da Partida </label>
+                        <input id="hora" type="time" name="hora" min="00" max="00" placeholder="Partida" required>
+                    </div>
+                    <div class="input-tenis">
+                        <label for="local">Local</label>
+                        <input id="local" type="nome" name="local" placeholder=" local" required>
+                    </div>
+                </div>
+                <a href=""><button class="btn-inicia" onclick="inicia()">INICIA</button></a>
+            </form>
+        </main>
+    </section>
+</body>
+
+</html>
