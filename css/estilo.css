@@ -436,6 +436,10 @@ ul {
   }
   
   @media (max-width: 768px) {
+	body {
+			font-size: 14px;
+			/* Reduz a fonte base para telas menores */
+		}
 	
 	#menu {
 	  display:flex;
